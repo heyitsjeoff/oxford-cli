@@ -1,15 +1,43 @@
 oxford-cli
 ==========
 
+# Getting started
+You'll first want to make sure you have set gotten your Oxford API id and key. Those can be 
+obtained [here](https://developer.oxforddictionaries.com/). After that set your environment variables.
 
+```shell
+$ export OXFORD_CLI_APP_ID=yourid
+$ export OXFORD_CLI_APP_KEY=yourkey
+```
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/oxford-cli.svg)](https://npmjs.org/package/oxford-cli)
-[![Downloads/week](https://img.shields.io/npm/dw/oxford-cli.svg)](https://npmjs.org/package/oxford-cli)
-[![License](https://img.shields.io/npm/l/oxford-cli.svg)](https://github.com/heyitsjeoff/oxford-cli/blob/master/package.json)
+# Running locally
+1. Install the dependencies
+```shell
+$ npm install
+```
+2. Run
+```shell
+$ ./bin/run word
+```
+3. Create a link
+If you would like to be able to run
+```shell
+$ oxford-cli myword
+```
+then create the link
+```shell
+$ npm link
+```
+4. Alias
 
-<!-- toc -->
+Typing in `oxford-cli` might be Q_Q for some. If so then just set up an alias!
+```shell
+$ alias define=oxford-cli
+$ define profit
+```
 # Usage
-<!-- usage -->
 # Commands
-<!-- commands -->
+# Development Status
+Issues are disabled for now but you can see the status of development [here](https://publish.smartsheet.com/790d5d9285894795b44a24d97590b69c).
+
+Email me if you want to get in contact with me about this repo
